@@ -3,7 +3,7 @@
  import { CardWidget } from './CardWidget'
 
 export async function initStripe() {
-    const stripe = await loadStripe('pk_test_51Hf6vbDfWW6uHRy7b6Upoa4bWhGYmk2ElEN4AiFeqozzlccU6OpAoD9d1oIar3qg9i8ASiOs9ly4rFJQOTPM5MMk00GN7COA2N');
+    const stripe = await loadStripe('pk_test_51Ok8pASDAVMjmUPXPNMAK2jQhcrUhIbmch1A9Z8ql1EZMp06bsGj7jaDDwK0liJ0Biu7TWcqL2c2rO9O0xrFfpyk00jmaInSAM');
     let card = null;
     // function mountWidget() {
     //         const elements = stripe.elements()
